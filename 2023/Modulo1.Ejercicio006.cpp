@@ -13,7 +13,7 @@ int main () {
     
     printf("Ingrese altura de la pared a pintar\n");
     scanf("%f", &altura);
-    fflush(stdin);
+    fflush(stdin);  
     
     // 0,5mts por 1L --- a 1785$   
     
