@@ -1,2 +1,2 @@
-# C-C-
+# C / C++
 Practice for University
