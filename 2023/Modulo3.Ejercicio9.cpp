@@ -29,7 +29,7 @@ const float SALES_PER = 0.04;
         carPriceTotal += carPrice;
         
         /*Assuming all quantities are known beforehand
-		printf("\n Ingrese cantidad de autos vendidos : ");
+	printf("\n Ingrese cantidad de autos vendidos : ");
       	scanf("%d", &quantCars);fflush(stdin); */
    }
    
