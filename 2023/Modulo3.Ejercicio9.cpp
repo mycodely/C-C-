@@ -33,10 +33,10 @@ const float SALES_PER = 0.04;
       	scanf("%d", &quantCars);fflush(stdin); */
    }
    
-   // Calculate salary
-	quantCarsTotal = quantCars * COM_PER_CAR;
-	salesTotal = carPriceTotal * SALES_PER;
-  salary = BASE + quantCarsTotal + salesTotal;
+// Calculate salary
+quantCarsTotal = quantCars * COM_PER_CAR;
+salesTotal = carPriceTotal * SALES_PER;
+salary = BASE + quantCarsTotal + salesTotal;
     
     printf("\n Se han vendido : %d autos", quantCars);
     printf("\n --------------------------------");
