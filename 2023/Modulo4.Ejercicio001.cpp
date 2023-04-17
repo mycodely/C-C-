@@ -1,3 +1,7 @@
+/*
+1. Desarrollar un programa que lea 40 números y a continuación muestre el
+mayor de los 40. 
+*/
 #include <stdio.h>
 
 int main () {
@@ -17,5 +21,4 @@ int num = 0, aux = 0;
   printf("El numero mayor es: %d", aux);
   getchar();
   return 0;
-
 }
