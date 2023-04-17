@@ -1,3 +1,11 @@
+/*
+4. En una maderera se tienen 80 tablones que deben ser medidos. Ingresar la
+medida de los tablones e indicar cuántos tablones miden más de 4 metros.
+Mostrar los resultados. 
+*/
+
+
+
 #include <stdio.h>
 
 float size = 0;
