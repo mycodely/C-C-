@@ -1,3 +1,10 @@
+/* 
+5. En la materia Algoritmos se tiene una comisión de 25 alumnos a los cuales se
+les tomaron 5 exámenes. Ingresar las notas de cada alumno, y de acuerdo a su
+promedio mostrar por pantalla “Aprobó” o “Desaprobó”. Además, mostrar las
+cantidades de aprobados y desaprobados. 
+*/
+
 #include <stdio.h>
 
 int cantD = 0, cantA = 0;
