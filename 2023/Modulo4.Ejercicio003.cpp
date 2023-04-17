@@ -1,3 +1,12 @@
+/*
+3. En unas elecciones se presentan 5 partidos políticos; PART1, PART2, PART3,
+PART4 y PART5. Desarrollar un programa que determine el número de votos
+obtenido por cada partido. Ingresar los votos de a uno, mediante un número
+entero que corresponderá con el número de cada partido. Leer votos hasta que
+se lea un 0 (cero). 
+	*/
+
+
 #include <stdio.h>
 
 int part1 = 0, part2 = 0, part3 = 0, part4 = 0, part5 = 0, vote = 6;
