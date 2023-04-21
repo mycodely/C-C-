@@ -11,7 +11,7 @@ int venta, bajaVenta, flagComercio;
 
 int main() {
    
-   for(int i = 1; i<= 5; i++){
+   for(int i = 1; i<= 25; i++){
    	   do{
    	printf("\n Ingrese el precio de la venta ");
    	scanf("%d", &venta);fflush(stdin);
