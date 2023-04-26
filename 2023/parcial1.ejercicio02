@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+	const int GALLINEROS = 18;
+    int total = 0, contador = 0, huevos;
+    float promedio;
+
+    for (int i = 1; i <= GALLINEROS; i++) {
+        do {
+            printf("\nIngrese la cantidad de huevos producidos por el gallinero %d: ", i);
+            scanf("%d", &huevos);fflush(stdin);
+            
+            if(huevos < 0) printf("\nCantidad incorrecta, por favor ingrese valores validos");
+        } while (huevos < 0);
+        
+        total += huevos;
+        
+        if (huevos > 50) {
+            contador++;
+        }
+    }
+    
+promedio = (float) total / GALLINEROS;
+    
+    printf("\nTotal de huevos producidos: %d", total);
+    printf("\nPromedio de huevos producidos por cada gallinero: %.2f", promedio);
+    printf("\nCantidad de gallineros que han producido mas de 50 huevos: %d", contador);
+    
+    return 0;
+}
