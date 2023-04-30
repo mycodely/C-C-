@@ -18,6 +18,6 @@ int main() {
 		}
         printf("%d ", nums[i]);
     }
-
+getchar();
     return 0;
 }
