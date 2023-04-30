@@ -7,13 +7,13 @@ pantalla.
  */
 
 int main() {
-    int nums[10], i;
+    int nums[100], i;
 
-    for (i = 0; i < 10; i++) {
+    for (i = 0; i < 100; i++) {
         nums[i] = i + 1;
     }
 
-    for (i = 0; i < 10; i++) {
+    for (i = 0; i < 100; i++) {
     	if(i == 0){printf("\nLos numeros cargados son: ");
 		}
         printf("%d ", nums[i]);
