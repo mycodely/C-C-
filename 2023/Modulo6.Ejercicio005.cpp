@@ -12,11 +12,11 @@ int main() {
     
     for(int i = 0; i<100; i++){
         printf("Ingrese un numero entero positivo para la posicion %d ", i );
-        scanf("%d", &vector[i]);
+        scanf("%d", &vector[i]);fflush(stdin);
         
         while(vector[i] < 0) {
             printf("Error: Ingrese un número entero positivo para la posición %d: ", i);
-            scanf("%d", &vector[i]);
+            scanf("%d", &vector[i]);fflush(stdin);
         }
         
         sum += vector[i];
